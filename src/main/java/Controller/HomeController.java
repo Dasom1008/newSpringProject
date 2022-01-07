@@ -10,4 +10,9 @@ public class HomeController {
     public String main(){
         return "/index";
     }
+
+    @RequestMapping(value = "/navController")
+    public String nav(){
+        return "";
+    }
 }

@@ -5,7 +5,6 @@
   </head>
   <body>
     <h1> My New Spring Project</h1>
-
-    <a href="/"></a>
+    <h1>test text</h1>
   </body>
 </html>
