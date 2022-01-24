@@ -16,4 +16,9 @@ public class HomeController {
     public String nav(){
         return "/Nav/nav";
     }
+
+    @RequestMapping(value = "memberController")
+    public String member(){
+        return "";
+    }
 }
