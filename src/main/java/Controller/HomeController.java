@@ -14,6 +14,6 @@ public class HomeController {
 
     @RequestMapping(value = "/navController")
     public String nav(){
-        return "";
+        return "/Nav/nav";
     }
 }
