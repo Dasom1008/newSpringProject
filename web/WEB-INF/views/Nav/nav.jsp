@@ -69,6 +69,8 @@
         <a href="#">Responsibility</a>
     </nav>
 
+    <a href="/" >home</a>
+
 <script type="text/javascript">
     let verticalBar = document.getElementById("vertical-underline");
     let horizontalBar = document.getElementById("horizontal-underline");
