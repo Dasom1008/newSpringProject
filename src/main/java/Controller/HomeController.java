@@ -17,8 +17,8 @@ public class HomeController {
         return "/Nav/nav";
     }
 
-    @RequestMapping(value = "memberController")
+    @RequestMapping(value = "/memberController")
     public String member(){
-        return "";
+        return "/Member/login";
     }
 }
