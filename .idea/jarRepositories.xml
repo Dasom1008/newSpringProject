@@ -16,5 +16,10 @@
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="oracle" />
+      <option name="name" value="Oracle JDBC Repository" />
+      <option name="url" value="http://repo.spring.io/plugins-release/" />
+    </remote-repository>
   </component>
 </project>

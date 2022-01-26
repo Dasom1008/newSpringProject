@@ -9,19 +9,31 @@
 <html>
 <head>
     <title>login</title>
+
     <style>
         .input{
-            width: 100px;
+            width: 80%;
             height: 40px;
-            margin : 10px;
+            margin :5px;
+        }
+        .btn_login {
+            display: block;
+        }
+        .basic_input{
+            display: block;
+            margin: 0 auto;
         }
     </style>
+
 </head>
 <body>
-<fieldset>
-    <label> LOG IN </label>
-    <p> ID : </p> <input class="input" type="text">  <br>
-    <p> PW : </p> <input class="input" type="password">
+<fieldset style="width: 500px">
+    <legend> LOG IN </legend> <br>
+    <span class="basic_input"> ID </span>
+    <input class="basic_input input" type="text">  <br>
+    <span class="basic_input"> PW </span>
+    <input class="basic_input input" type="password"><br>
+    <input class="basic_input btn_login" type="button" value="로그인">
 </fieldset>
 
 
