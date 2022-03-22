@@ -36,6 +36,7 @@
     <input class="basic_input btn_login" type="button" value="로그인">
 </fieldset>
 
+<a href="/dbTest">데이터연결 테스트 </a>
 
 </body>
 </html>
